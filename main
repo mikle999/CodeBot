@@ -1519,7 +1519,7 @@ async def handle_all_messages(update: Update, context: ContextTypes.DEFAULT_TYPE
 
 def main():
     """Запуск бота"""
-    TOKEN = "8203911106:AAHIdcRactWykyDvzcwH4vsq8Uet25w4W_U"
+    TOKEN = "8"
     
     app = Application.builder().token(TOKEN).build()
     app.add_handler(CommandHandler("start", start))
